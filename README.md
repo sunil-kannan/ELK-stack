@@ -15,7 +15,9 @@ This repository contains the setup files for running the ELK stack (Elasticsearc
 git clone https://github.com/sunil-kannan/ELK-stack.git
 cd ELK-stack
 
+```
 
+```
 elk-docker-setup/
 ├── docker-compose.yml
 ├── logstash.conf
@@ -28,19 +30,18 @@ elk-docker-setup/
 ```
 
 ### 2. Database Configuration
-```sh
 Update the database configuration in the logstash.conf file with your own database details.
 
 
-```
+
 ### 3. Download postgresql jar file
-```sh
 Download the PostgreSQL jar file from the PostgreSQL website. If you need a different version, make sure to update the version in the docker-compose file accordingly.
 
-```
+
 ### 4. Run docker compose
 ```sh
 docker-compose up -d
+```
 After running the command, you can access Kibana at http://localhost:5601/
 
 
