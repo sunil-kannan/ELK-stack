@@ -12,6 +12,13 @@ This repository contains the setup files for running the ELK stack (Elasticsearc
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/elk-docker-setup.git
-cd elk-docker-setup
+git clone https://github.com/sunil-kannan/ELK-stack.git
+cd ELK-stack
+
+elk-docker-setup/
+├── docker-compose.yml
+├── logstash.conf
+├── goldhubBuyer_template.json
+└── postgresql-42.2.29.jar
+
 
