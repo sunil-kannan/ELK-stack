@@ -11,7 +11,7 @@ This repository contains the setup files for running the ELK stack (Elasticsearc
 
 ### 1. Clone the Repository
 
-
+```sh
 git clone https://github.com/sunil-kannan/ELK-stack.git
 cd ELK-stack
 
@@ -26,7 +26,9 @@ elk-docker-setup/
 ├── shakespeare_part3.json
 └── shakespeare_part4.json
 
-### 1. Clone the Repository
+### 2. Run the docker compose file
+
+
 
 
 
