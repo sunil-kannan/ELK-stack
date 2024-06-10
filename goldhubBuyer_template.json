@@ -1,0 +1,13 @@
+{
+    "index_patterns": [
+        "goldhub_buyer"
+    ],
+    "priority": 1,
+    "template": {
+        "settings": {
+            "number_of_shards": 3,
+            "number_of_replicas": 1
+        },
+        "mappings": {}
+    }
+}
