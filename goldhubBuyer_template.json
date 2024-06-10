@@ -1,8 +1,5 @@
 {
-    "index_patterns": [
-        "goldhub_buyer"
-    ],
-    "priority": 1,
+    "index_patterns": ["goldhub_buyer*"],
     "template": {
         "settings": {
             "number_of_shards": 3,
