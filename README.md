@@ -25,8 +25,25 @@ elk-docker-setup/
 ├── shakespeare_part2.json
 ├── shakespeare_part3.json
 └── shakespeare_part4.json
+```
 
-### 2. Run the docker compose file
+### 2. Database Configuration
+```sh
+Update the database configuration in the logstash.conf file with your own database details.
+
+
+```
+### 3. Download postgresql jar file
+```sh
+Download the PostgreSQL jar file from the PostgreSQL website. If you need a different version, make sure to update the version in the docker-compose file accordingly.
+
+```
+### 4. Run docker compose
+```sh
+docker-compose up -d
+After running the command, you can access Kibana at http://localhost:5601/
+
+
 
 
 
